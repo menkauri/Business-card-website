@@ -110,9 +110,16 @@ body {
 .intro h3,
 .portfolio h3 {
   margin: 0 0 12px;
+  font-family: "Domine", sans-serif;
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
+  padding: 0 16px;
+    text-shadow:
+    2px 2px 2px #ffffff,
+    0 2px 2px #ffffff,
+    -2px 0 2px #ffffff,
+    0 -2px 2px #ffffff
 }
 
 .intro p {
@@ -131,27 +138,57 @@ body {
 }
 
 .skill-html {
+  margin-left: 360px;
+  font-family: "Domine", sans-serif;
   background-image: url("img/icon-html.svg");
+  padding: 0 16px;
+    text-shadow:
+    2px 2px 2px #ffffff,
+    0 2px 2px #ffffff,
+    -2px 0 2px #ffffff,
+    0 -2px 2px #ffffff
 }
 
 .skill-css {
+  margin-left: 360px;
+  font-family: "Domine", sans-serif;
   background-image: url("img/icon-css.svg");
+  padding: 0 16px;
+    text-shadow:
+    2px 2px 2px #ffffff,
+    0 2px 2px #ffffff,
+    -2px 0 2px #ffffff,
+    0 -2px 2px #ffffff
+}
+
+.skill-python {
+  margin-left: 360px;
+  font-family: "Domine", sans-serif;
+  background-image: url("img/python-3.png");
+  border-radius: 33px;
+  padding: 0 22px;
+    text-shadow:
+    2px 2px 2px #ffffff,
+    0 2px 2px #ffffff,
+    -2px 0 2px #ffffff,
+    0 -2px 2px #ffffff
 }
 
 .level {
-  margin: 4px 0 16px;
+  margin: 4px 0 16px 360px;
   padding: 0;
   height: 14px;
   font-size: 0;
+  width: 910px;
   background-color: #ffffff;
-  border: 1px solid #86c3fa;
+  border: 1px solid #000000;
   border-radius: 8px;
 }
 
-.level div {
+.level-div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: #000000;
   border-radius: 6px;
 }
 
@@ -187,6 +224,7 @@ body {
   border-radius: 4px;
   background-color: #000000;
   color: #000000;
+  border: 2px solid #ffffff;
 }
 
 .page-footer {
